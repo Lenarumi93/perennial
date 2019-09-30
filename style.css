@@ -1,0 +1,196 @@
+body{
+    background: #ffffff;
+    margin: 0px;
+}
+header{
+    background-image: url(images/curves_top.png);
+    background-repeat: no-repeat;
+    background-size: 100% 77px;
+    width: 100%;
+    height: 155px;
+}
+.container{
+    width: 998px;
+    margin: auto;
+}
+.main_menu{
+    display: flex;
+    height: 155px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.menu{
+    width: 609px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radius{
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 4px #cccccc;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 556px;
+    padding: 0px;
+}
+.menu ul li{
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Myriad Pro;
+    font-size: 14px;
+
+}
+.menu ul li a{
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    margin-top: 40px;
+}
+.content_box{
+    display: flex;
+    justify-content: space-between;
+    width: 998px;
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 729px;
+    height: 319px;
+    position: relative;
+}
+.banner img{
+    width: 709px;
+    height: 299px;
+}
+.banner_text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 709px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.banner_text h3{
+    margin: 0px;
+    padding-left: 16px;
+    color: white;
+    padding-top: 10px;
+}
+.banner_text p{
+    margin: 0px;
+    padding-left: 16px;
+    color: white;
+    padding-top: 5px;
+}
+.navigation{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end; 
+    margin-top: 9px;
+}
+.nav{
+    width: 74px;
+    display:flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.point{
+    width: 11px;
+    height: 11px;
+    border: 2px solid #cccccc;
+}
+.point:hover{
+    background: #09749c;
+}
+.gallery{
+    display: flex;
+    height: 610px;
+    width: 728px;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.gallery_box{
+    display: flex;
+    justify-content: space-between;
+    width: 673px;
+    height: 542px;
+}
+.gallery_box_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 542px;
+}
+.gallery_item p{
+    font-size: 13px;
+}
+.gallery_item a{
+    float: right;
+}
+.gallery_box_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 542px;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 226px;
+    height: 902px;
+}
+.search{
+    width: 226px;
+    height: 29px; 
+    position: relative;
+}
+.search img{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+input{
+    width: 226px;
+    height: 29px; 
+}
+.slidebar{
+    width: 226px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.head_bar{
+    width: 226px;
+    height: 42px;
+    background-color: #f53f1a;
+    box-shadow: 0 0 4px #cccccc;
+}
+.content_bar{
+    width: 226px;
+    height: 248px;
+    box-shadow: 0 0 4px #cccccc;
+}
